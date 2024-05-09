@@ -1,0 +1,58 @@
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+    background-color: #333;
+}
+li{
+    /* float: left; */
+    display: inline-block;
+}
+a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: #111;
+}
+
+.irfanbot{
+    background-color: #04aa6b;
+}
+.dropdown{
+    display: inline-block;
+    position: relative;
+}
+button {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color:white;
+    background-color:inherit;
+    margin-top: 5px;
+    font-family: inherit;
+    padding: 16px;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+.dropdown:hover .dropdown-content{
+    display:block;
+}
+
+
+.dropdown-content a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+.dropdown-content a:hover{
+    background-color: #ddd;
+}
